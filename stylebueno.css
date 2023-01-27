@@ -178,22 +178,13 @@ h6 {
 
 }
 
-.seccioncentral {
-    max-height: 644px;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    background-image: url('../img/18.svg');
-    margin: 0 auto;
-    align-items: flex-end;
-    justify-content: center;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 132px;;
+.primer_recuadro {
+    height: 209px;
+    width: 739px;
 }
+
+
+
 
 .socializda {
     grid-row: 1;

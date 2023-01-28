@@ -208,6 +208,7 @@ nav a:hover {
     width: 348px;
     margin-left: 20px;
     margin-right: 20px;
+    vertical-align: top;
 }
 
 .p1 {
@@ -327,7 +328,7 @@ nav a:hover {
 
 .card {
 
-    transform: translateY(85px);
+    
     display: flex;
     flex-direction: column;
     height: 653px;
@@ -549,5 +550,155 @@ nav a:hover {
 .social_nets img{
     width: auto;
 }
+
+.etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
+    margin: 50px 0 50px 0;
+}
+
+#formulario1 {
+    border: #D8D8D8 1px solid;
+    width: 731px;
+    height: 416px;
+    padding: 60px;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 0.5px;
+    text-align: left;
+ }
+
+ #fp1 {
+    width: auto;
+    height: 13px;
+    margin-bottom: 20px;
+    font-family: "Lato";
+    font-size: 11px;
+    line-height: auto;
+    letter-spacing: 5px;
+    text-align: left;
+ }
+
+    #fp2 {
+        width: 519px;
+        height: 25px;
+        margin-bottom: 20px;
+        font-family: "Lato";
+        font-size: 16px;
+        line-height: auto;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+
+    #fp3 {
+        width: 611px;
+        height: 141px;
+        margin-bottom: 20px;
+        border: #D8D8D8 1px solid;
+        padding:10px;
+    }
+
+    .name {
+        width: 320px;
+        height: 53px;
+        border: 1px solid #D8D8D8;
+        margin-right: 10px;
+        padding: 10px;
+
+    }
+
+    #fp4 {
+        display: flex;
+    }
+
+    .boton {
+        width: 173px;
+        height: 53px;
+        border: 1px solid #D8D8D8;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: #44C0FE;
+        font-family: "Lato";
+        font-size: 11px;
+        line-height: auto;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    div h3{
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    
+        color: #2B2B2B;
+        width: 100%; 
+        text-align: left; 
+        border-bottom: 1px solid #D8D8D8; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+    
+    }
+    
+    
+     div h3 span { 
+        background:#fff; 
+        padding:0 10px; 
+        
+    }
+
+    #dt {
+        margin-top: 20px;
+    }
+
+    .principal {
+    
+
+        width: 670px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 140px;
+    
+    
+    }
+    
+    .prin_img {
+      
+        height: 100px;
+        width: 100px;
+    
+    }
+    
+    .prin_text h2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: auto;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #000000;
+        width: 220px;
+        height: 56px;
+    
+    }
+    
+    .detalles {
+        margin-top: 5px;
+    }
+
+
+
+
 
 

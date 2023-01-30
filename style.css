@@ -235,7 +235,6 @@ nav a:hover {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
     display: flex;
     width: 594px;
     height: 55px;
@@ -264,22 +263,58 @@ nav a:hover {
 }
 
 .oval_img {
-    grid-column: 3;
-    grid-row: 2;
     margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin-right: 20px;;
     margin-bottom: 20px;
-    display: block;
+    display: inline;
     width: 55px;
     height: 55px;
+    top: 15px;
     
 }
 
-.willy {
-    width:152px;
-    height: 44px;
+.banner1 h6{
+    margin:3px;
+    display: inline;
+}
 
+.bloque {
+   display: flex;
+    flex-direction: column;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color:#000000
+
+}
+
+.bloque h6{
+    font-weight: 600;
+}
+
+.bloque h4{
+    font-weight: bold;
+    font-size: 18px;
+    align-self: center;
+    color: #000000;
+}
+
+.bloque h3{
+    font-family: "Lato";
+    font-size: 14px;
+    align-self: center;
+}
+
+.linea {
+    border-left: solid rgb(200, 200, 200);
+    border-left-width: 1px;
+    height: 80%;
+    left: 50%;
+    margin: 0 15px;
 }
 
 .p2 {
@@ -296,10 +331,11 @@ nav a:hover {
 .p3 {
     width: auto;
     height: 19;
-    font-family: Lato;
+    font-family: "Lato";
     font-size: 16px;
     text-align: left;
     align-self: top;
+    letter-spacing: 0.5px;
 }
 
 .etiqueta {
@@ -513,6 +549,7 @@ nav a:hover {
     width: 1110px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 90px;
 }
 .social h3{
 
@@ -563,7 +600,7 @@ nav a:hover {
     border: #D8D8D8 1px solid;
     width: 731px;
     height: 416px;
-    padding: 60px;
+    padding: 30px;
     font-size: 16px;
     line-height: auto;
     letter-spacing: 0.5px;
@@ -627,6 +664,7 @@ nav a:hover {
         text-align: center;
         text-transform: uppercase;
         font-weight: 400;
+        color: white;
     }
 
     div h3{
